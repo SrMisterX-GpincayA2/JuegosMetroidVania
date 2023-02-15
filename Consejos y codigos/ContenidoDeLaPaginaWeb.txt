@@ -1,0 +1,52 @@
+A crear una pagina.
+ideas
+Demostrar top juegos metroidvania con su banda sonora
+
+Como introduccion:
+En tamaño grande los nombre de los juegos con una descripcion
+que mande un link de una musica del juego.
+
+Objetivo:
+Enseñar y demostrar la maravilla de los juegos, de como pueden trasmitir
+arte a traves de su musica para asi recomendarlos.
+
+Juegos que enseñar:
+Hollow Knight (Colores: Gris, gris oscuro, negro, dorado)
+Blasphemous (Colores: dorado, gris, rojo)
+The Tarnishing of Juxtia (Colores: morado, rojo, gris)
+
+Musicas de los juegos:
+Hollow Knight (El Repcetaculo Roto)
+https://youtu.be/dyHn4980MPY
+
+Blasphemous (Isidora La voz de los muertos)
+https://youtu.be/oYgqEkwJJDE
+
+The Tarnishing of Juxtia (Tralium)
+https://youtu.be/oxraWN_IqNY
+
+
+Descripcion del juego:
+Hollow Knight:
+(Hollow Knight cuenta la historia del Caballero,
+en su búsqueda por descubrir los secretos del largamente
+abandonado reino de los insectos de Hallownest,
+cuyas profundidades atraen a los aventureros y valientes
+con la promesa de tesoros o la respuesta a misterios antiguos.)
+
+Blasphemous:
+"Una terrible maldición conocida como el Milagro ha caído
+sobre la tierra de Cvstodia y sus habitantes, con ello muchos
+han sido castigados con mutaciones y terribles sucesos paranormales.
+Siendo tu el Penintente en el silencio, ultimo superviviente de su especie,
+atrapado en un bucle de muerte y resurrecion constante es tu deber
+el buscar el origen y librar el mundo del Milagro."
+
+Tarnishing of juxtia.
+(Un ser creado por Juxtia, una diosa caída, nos encomienda
+una para nada sencilla tarea: recuperar las tierras de su reino,
+o al menos lo que queda de ellas. Nuestro objetivo principal
+es destruir a Drelium, un dios de otro planeta que busca controlar
+el mundo entero. En el medio, además, debemos hacerle frente a “Tarnishing”,
+una misteriosa corrupción que convirtió a los antiguos soldados en monstruos
+y dejó al mundo al borde de la destrucción.)

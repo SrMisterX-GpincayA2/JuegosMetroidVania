@@ -1,0 +1,77 @@
+Etiquetas o comandos para el HTML
+<H1>= (style="color: para elegir el colo del titulo" </H1> TITULO
+los H2 hasta H6 son el tamaño del titulo mientras el numero escala
+menos tamaño tendra el titulo.
+<style> para decorar la pagina
+body{ background-color: (color)}
+
+
+<p>= es para los parrafos </p>
+
+<br> es para saltar de lineas
+ejemplo:
+(p) hola que tal. que haces
+con (br): 
+hola que tal. (br)
+que haces           
+
+<img> para imagenes
+(se puede añadir imagenes pueden ser en enlace de pagina o archivo descargable)
+(width="(ancho de la imagen)" , y heith para altura).
+
+<hr> para lineas horizontales
+ejemplo: ------------------------
+
+<a> para añadir enlaces
+
+<div> para varios titulos y parrafos </div>
+
+
+Estructura de un HTML
+<!DOCTYPE html>
+<html> inicio y final de un html </html>
+<head> el cabezado(<title> para el titulo>) </>
+<Body> todo el contenido que quieras poner dentro de una pagina </>
+
+apretando ! y luego tabulador se forma la estructura con los comandos necesarios
+
+para selecionar un parrafo especifico y querer cambiarlo
+se usa <p id="parrafo-especial"
+Los IDs son unicos por elemento y las clases son repetibles
+#(nombre de la id)parrafo especial
+<p class="parrafo"> asignamos a varios <p>
+
+
+añadiendo un apartado asi como html a estilos.css
+para unirlos dos archivos del css a html se usa el link
+se usa <link rel="stylesheet" href="estilos.css">
+poniendo solo body{ background-color: (color)} ya no es necesario el style.
+
+p{(que es del parrafo) color:}
+para el tamaño del parrafo se usa
+font-size: 24px
+
+para comentar y no afecte el codigo usamos Control + /
+font-family: "Robot", sans-serif; para la fuente de letra
+
+h1,h2,h3,h4,h5,h6{ text-align: center;} para mandar los textos al centro
+div h2{ para cambiar el color solamente que esta dentro del div}
+#(nombre de la id)parrafo especial{
+font-size: 1.5sem
+font-weight: hold
+
+para las clases se usa ( . ) en vez de #
+
+para imagenes se usa a, img{ display: block (para poner el link encima de la imagen)
+a{ margin: 50px 20px para tener espacio entre imagen de arriba y abajo}
+text.decoration: none para cambiar el color del subrayado
+color: black
+a:hover{ color:} para que cambie el color al poner el mouse encima del link
+img{ width: 70% para la anchura y margin: auto para el posicionamiento}
+
+
+    <button action="audio muted">
+        <audio autoplay controls loop>
+            <source src="The Tarnishing of Juxtia OST _ _Main Theme_.mp3" type="audio/mpeg">
+        </audio>
+    </button>

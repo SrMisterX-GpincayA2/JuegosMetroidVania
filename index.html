@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="style.css">
+    <title>Pagina-GpincayA2</title>
+</head>
+<body>
+    <header>
+        <div class="caja">
+            <p class="logo">El Genero Metroidvania</p>
+                <nav>
+                <a href="#imagenEnlace">Significado Metroidvania</a>
+                <a href="#Juegos-MetroidVanias">Juegos MetroidVania Recomendados</a>
+            </nav>
+        </div>
+    </header>
+    <div id="BotonesAudio">
+        <audio id="Audio" loop>
+            <source src="Audios/Hollow Knight OST - Enter Hallownest.mp3" type="audio/mpeg">
+            Por lo visto, tu dispositivo no es capaz de soportar la musica.
+        </audio>
+        <button id="SM" onclick="stopMusic(); document.getElementById('Audio').play()">Presione Aqui para tener el Control del Volumen</button>
+        <button id="VD">Bajar Volumen</button>
+        <button id="VU">Subir Volumen</button>
+        <script>
+      const audio = document.getElementById("Audio");
+     const muteButton = document.getElementById("SM");
+    
+     let isMuted = true;
+    
+     muteButton.addEventListener("click", function() {
+       if (isMuted) {
+         audio.muted = true;
+         muteButton.innerHTML = "Activar Musica";
+       } else {
+         audio.muted = false;
+         muteButton.innerHTML = "Desactivar Musica";
+          }
+      
+          isMuted = !isMuted;
+    const volumeDownButton = document.getElementById("VD");
+    const volumeUpButton = document.getElementById("VU");
+    
+      volumeDownButton.addEventListener("click", function() {
+        audio.volume = audio.volume - 0.1;
+      });
+    
+      volumeUpButton.addEventListener("click", function() {
+        audio.volume = audio.volume + 0.1;
+      });
+    });
+    </script>
+    </div>
+    <section id="hero">
+        <h1>EL MEJOR GENERO DE JUEGO<br> QUE DEBES PROBARLO CUANTO ANTES</h1>
+    </section>
+    
+    <section id="MetroidVania">
+        <div class="Contenedor">
+            <div id="imagenEnlace">
+        <div class="img-MV">
+                <div class="textoMV">
+                    <h2> ¿QUÉ ES <span class="color-acento">METROIDVANIA?</span></h2>
+                    <p> LA DEFINICIÓN METROIDVANIA ES UN SUBGÉNERO DE
+                        VIDEOJUEGO DE ACCIÓN-AVENTURA 
+                        BASADO EN UN CONCEPTO DE PLATAFORMAS NO LINEAL.    
+                        <br>
+                        SU PALABRA VIENE DE LA UNIÓN DE 2 JUEGOS 
+                        LLAMADO METROID Y CASTELVANIA.
+                <br>
+                EL GÉNERO CONSISTE EN GRAN MUNDO CONECTADO QUE EL JUGADOR PUEDE EXPLORAR,
+                SIN EMBARGO, EL ACCESO A PARTE DEL MUNDO SE LIMITA POR PUERTAS U OTROS
+                MECANISMOS QUE SOLO SE ABRIRÁN DESPUÉS QUE EL JUGADOR HAYA ADQUIRIDO 
+                UNOS ARTÍCULOS ESPECIALES, HERRAMIENTAS, ARMAS O HABILIDADES 
+                EN EL JUEGO.
+                <br>
+                <br>
+                SI DESEA TENER MÁS CONOCIMIENTOS DEL GÉNERO, PULSE ESTE BOTÓN Y
+                LO ENVIARA PARA QUE VEA CON MÁS DETALLES.
+                <br>
+                <div id="Wiki">
+                    <form action="https://es.wikipedia.org/wiki/Metroidvania"> 
+                        <button> Ver más aquí</button>
+                    </form>
+                </div>
+            </div>
+            </div>
+        </div>
+    </p>
+</div>
+
+</section>
+    <section id="Juegos-MetroidVanias">
+        <div class="contenedor">
+            <h2>JUEGOS <span class="color-acento"> METROIDVANIAS</span> RECOMENDADOS</h2>
+            <div class="JuegosMV">
+                <div id="EnlaceHK">
+                    <div class="Juegos">
+                        <div id="TituloHK">
+                            <a href="#EnlaceHK" onclick="stopMusic(); document.getElementById('infoHK').style.display='block'; document.getElementById('infoBS').style.display='none'; document.getElementById('infoTJ').style.display='none'; document.getElementById('MusicaHK').play()">
+                                <h3> <span class="color-HK"> HOLLOW KNIGHT</span></h3> 
+                        </div>
+                    </a>
+                    <div id="infoHK" style="display:none">
+                        <p>HOLLOW KNIGHT CUENTA LA HISTORIA DEL CABALLERO,
+                            EN SU BÚSQUEDA POR DESCUBRIR LOS SECRETOS DEL LARGAMENTE
+                            ABANDONADO REINO DE LOS INSECTOS DE HALLOWNEST
+                            CUYAS PROFUNDIDADES ATRAEN A LOS AVENTUREROS Y VALIENTES
+                            CON LA PROMESA DE TESOROS O LA RESPUESTA A MISTERIOS ANTIGUOS.
+                            <br>
+                            <form action="https://youtu.be/UAO2urG23S4">
+                            <button id="BotonHK">Trailer del juego</button>
+                            </form>
+                        </p>
+                    </div>
+                        <audio id="MusicaHK" controls autoloop style="display:none">
+                            <source src="Audios/MusicaHK.mp3" type="audio/mpeg">
+                          </audio>
+                        <script>
+                            const audioHK = document.getElementById("MusicaHK");
+                            const muteButtonHK = document.getElementById("SM")
+                            let isMutedHK = false;
+    
+                              muteButtonHK.addEventListener("click", function() {
+                                  if (isMutedHK) {
+                                      audioHK.muted = false;
+                                      muteButtonHK.innerHTML = "Desactivar Musica";
+                                    } else {
+                                        audioHK.muted = true;
+                              muteButtonHK.innerHTML = "Activar Musica";
+                            }
+                           
+                            isMutedHK = !isMutedHK;
+                         const volumeDownButton = document.getElementById("VD");
+                         const volumeUpButton = document.getElementById("VU");
+                         
+                           volumeDownButton.addEventListener("click", function() {
+                             audioHK.volume = audioHK.volume - 0.1;
+                           });
+                           
+                           volumeUpButton.addEventListener("click", function() {
+                               audioHK.volume = audioHK.volume + 0.1;
+                           });
+                         });
+                         </script>
+                    </div>
+                </div>
+
+                <div class="Juegos">
+                    <div is="EnlaceBS">
+                        <a href="#EnlaceBS" onclick="stopMusic(); document.getElementById('infoHK').style.display='none'; document.getElementById('infoBS').style.display='block'; document.getElementById('infoTJ').style.display='none'; document.getElementById('MusicaBS').play()">
+                            <h3> <span class="color-BS">BLASPHEMOUS</span></h3>
+                        </a>
+                    </div>
+                        <div id="infoBS" style="display:none">
+                            <p>Una terrible maldición conocida como el Milagro ha caído
+                            sobre la tierra de Cvstodia y sus habitantes, con ello muchos
+                            han sido castigados con mutaciones y terribles sucesos paranormales.
+                            <br>
+                            Siendo tu el Penintente en el silencio, ultimo superviviente de su especie,
+                            atrapado en un bucle de muerte y resurrecion constante es tu deber
+                            el buscar el origen y librar el mundo del Milagro.
+                            <br>
+                            <form action="https://youtu.be/_ARK_WGA6No">
+                            <button id="BotonBS">Trailer del juego</button>
+                        </form>
+                        </p>
+                        </div>
+                        <audio id="MusicaBS" controls autoloop style="display:none">
+                            <source src="Audios/Blasphemous - BS.mp3" type="audio/mpeg">
+                        </audio>
+                        <script>
+                            const audioBS = document.getElementById("MusicaBS");
+                            const muteButtonBS = document.getElementById("SM")
+                            let isMutedBS = false;
+    
+                              muteButtonBS.addEventListener("click", function() {
+                                  if (isMutedBS) {
+                                      audioBS.muted = false;
+                                      muteButtonBS.innerHTML = "Desactivar Musica";
+                                    } else {
+                                        audioBS.muted = true;
+                              muteButtonBS.innerHTML = "Activar Musica";
+                            }
+                           
+                            isMutedBS = !isMutedBS;
+                         const volumeDownButton = document.getElementById("VD");
+                         const volumeUpButton = document.getElementById("VU");
+                         
+                           volumeDownButton.addEventListener("click", function() {
+                             audioBS.volume = audioBS.volume - 0.1;
+                           });
+                           
+                           volumeUpButton.addEventListener("click", function() {
+                               audioBS.volume = audioBS.volume + 0.1;
+                           });
+                         });
+                         </script>
+                </div>
+
+                <div class="Juegos">
+                    <a href="#infoTJ" onclick="stopMusic(); document.getElementById('infoHK').style.display='none'; document.getElementById('infoBS').style.display='none'; document.getElementById('infoTJ').style.display='block'; document.getElementById('MusicaTJ').play()">
+                    <h3><span class="color-TJ">THE TARNISHING OF JUXTIA</span></h3>
+                    </a>
+                    <div id="infoTJ" style="display:none">
+                    <p>Un ser creado por Juxtia, una diosa caída, nos encomienda
+                        la tarea de recuperar las tierras de su reino, para hacerlo tienes que derrotar a Drelium, 
+                        un dios de otro planeta que busca controlar
+                        el mundo entero.
+                        <br>Por el camino encontras rastros de “Tarnishing”,
+                        una misteriosa corrupción que convirtió a los antiguos soldados en monstruos
+                        y dejó el mundo al borde de la destrucción.
+                        <br>
+                        <form action="https://youtu.be/C4jvWUsqxqA">
+                            <button id="BotonTJ">Trailer del juego</button>
+                        </form>
+                    </p>
+                    <audio id="MusicaTJ" controls autoloop style="display:none">
+                        <source src="Audios/TJ.mp3" type="audio/mpeg">
+                    </audio>
+                    </div>
+                    <script>
+                        const audioTJ = document.getElementById("MusicaTJ");
+                        const muteButtonTJ = document.getElementById("SM")
+                        let isMutedTJ = false;
+
+                          muteButtonTJ.addEventListener("click", function() {
+                              if (isMutedTJ) {
+                                  audioTJ.muted = false;
+                                  muteButtonTJ.innerHTML = "Desactivar Musica";
+                                } else {
+                                    audioTJ.muted = true;
+                          muteButtonTJ.innerHTML = "Activar Musica";
+                        }
+                       
+                        isMutedTJ = !isMutedTJ;
+                     const volumeDownButton = document.getElementById("VD");
+                     const volumeUpButton = document.getElementById("VU");
+                     
+                       volumeDownButton.addEventListener("click", function() {
+                         audioTJ.volume = audioTJ.volume - 0.1;
+                       });
+                       
+                       volumeUpButton.addEventListener("click", function() {
+                           audioTJ.volume = audioTJ.volume + 0.1;
+                       });
+                     });
+                     </script>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        function stopMusic() {
+          var audioElements = document.getElementsByTagName("audio");
+          for (var i = 0; i < audioElements.length; i++) {
+            audioElements[i].pause();
+            audioElements[i].currentTime = 0;
+          }
+        }
+        </script>
+  <footer>
+    <div class="copy">
+    <p>&copy; SrX-GpincayA2 2023</p>
+    </div>
+</footer>
+</body>
+</html>
